@@ -57,6 +57,8 @@ android_app {
         "nist-sip",
     ],
 
+    defaults: ["SettingsLibDefaults"],
+
     srcs: [
         ":framework-telephony-common-shared-srcs",
         "src/**/*.java",
